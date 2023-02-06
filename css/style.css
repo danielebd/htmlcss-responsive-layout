@@ -13,8 +13,8 @@
 
 /* COMMON */
 .container {
-    padding: 1.25rem 1.875rem;
     margin: 0 auto;
+    padding: 1.25rem 1.875rem;
 }
 .flex {
     display: flex;
@@ -28,6 +28,10 @@
 .justify-pb {
     display: flex;
     justify-content: space-between;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* COMMON */
@@ -67,5 +71,66 @@ i {
     .hamburger {
         display: none;
     }
+    header .container {
+        
+    }
 }
 /* HEADER */
+
+/* MAIN */
+/* Container blue */
+/* defaulf */
+/* defaulf */
+
+#blue div {
+    
+}
+.big-box-blue {
+    background-color: var(--first-color-light);
+    padding: 0 1.875rem;
+    padding-top: 1.875rem;
+    height: 37.5rem;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box-blue {
+    text-align: center;
+    background-color: var(--first-color-light);
+    width: 100%;
+    height: 22.5rem;
+    border-radius: 20px;
+}
+#blue .wrap {
+    gap: 1.5625rem;
+}
+@media screen and (min-width: 768px) {
+    .big-box-blue {
+        height: 22.5rem;
+        width: calc((100% /3)*2 - 1.5625rem);
+    }
+    .box-blue {
+        width: calc(100%/3 - 1.5625rem);
+        height: 21.25rem; /* default */
+    }
+}
+@media screen and (min-width: 992px) {
+    #blue div {
+        max-width: 1440px;
+    }
+    
+    .big-box-blue {
+        width: calc((100% /3)*2 - 1.5625rem);
+        height: 21.25rem;
+    }
+    .box-blue {
+        width: calc(100%/3 - 1.5625rem);
+        height: 21.25rem;
+    }
+}
+
+/* Container blue */
+/* MAIN */
+
+/* FOOTER */
+/* FOOTER */
