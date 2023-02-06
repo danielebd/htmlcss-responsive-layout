@@ -36,6 +36,22 @@
     flex-wrap: wrap;
     gap: 1.5625rem;
 }
+.box {
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 1.875rem;
+}
+p {
+    margin-bottom: 2.1875rem;
+}
+h2 {
+    font-size: 1.375rem;
+    padding: 2.1875rem 0;
+}
+img {
+    width: 100%;
+    display: block;
+}
 
 /* COMMON */
 /* HEADER */
@@ -94,16 +110,11 @@ i {
     border-radius: 20px;
 }
 .box-blue {
-    text-align: center;
-    padding: 0 1.875rem;
     background-color: var(--first-color-light);
-    width: 100%;
-    border-radius: 20px;
+    text-align: center;
 }
 
 #blue h2 {
-    font-size: 1.375rem;
-    padding: 2.1875rem 0;
     color: var(--first-color);
 }
 #blue p {
@@ -125,18 +136,13 @@ i {
 .demo button i {
     font-size: 100%; 
 }
-.photo img {
-    width: 100%;
-    display: block;
-}
+
 .box-blue i {
     font-size: 5rem;
     color: var(--first-color);
     margin-top: 1.875rem;
 }
-.box-blue p {
-    margin-bottom: 2.1875rem;
-}
+
 @media screen and (min-width: 768px) {
     .big-box-blue {
         width: calc(100% - ((100% - 50px) / 3 + 25px));
@@ -150,8 +156,7 @@ i {
 }
 @media screen and (min-width: 992px) {
     #blue div {
-        max-width: 1140px;
-        
+        max-width: 1140px;    
     }
     .big-box-blue {
         width: calc(100% - ((100% - 50px) / 3 + 25px));
@@ -171,10 +176,67 @@ i {
 
     .box-blue {
         width: calc((100% - 50px) / 3);
-        }
+    }
 }
-
 /* Container blue */
+/* Container Purple */
+#purple {
+    background-color: #9792e4;
+}
+.box-purple1 h2, .box-purple1 p {
+    color: white;
+}
+.box-purple1 {
+    margin-top: 70px;
+}
+.box-purple2 {
+    background-color: white ;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-purple2 h2, .box-purple2 p, .box-purple2 i {
+    text-align: center;
+}
+.box-purple2 {
+    padding-top: 30px;
+}
+.box-purple2 p {
+    font-style: oblique;
+}
+.box-purple2 i {
+    background-color: #9792e4;
+    border-radius: 50px;
+    padding: .9375rem 1.25rem;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 992px) {
+    #purple .container {
+        max-width: 880px;
+    }
+    #purple .box {
+        padding: 0 .625rem;
+    }
+    #purple .wrap {
+        flex-wrap: nowrap;
+        padding-bottom: 60px;
+        padding-top: 3.125rem;
+        align-items: flex-end;
+        gap: 50px;
+    }
+    .box-purple1 {
+        width: 50%;
+    }
+    .box-purple2 {
+        width: 50%;
+    }
+    .box-purple2 img {
+        width: 200px;
+    }
+}
+/* Container Purple */
+
 /* MAIN */
 
 /* FOOTER */
