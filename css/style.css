@@ -236,6 +236,37 @@ i {
     }
 }
 /* Container Purple */
+/* Container Testimonial*/
+.title-testimonial {
+    height: 260px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.title-testimonial:nth-child(1) {
+    text-align: center;
+}
+.box-testimonials {
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 110px;
+}
+.box-testimonial {
+    width: 100%;
+    height: 500px;
+    border: solid;
+    background-color: #9792e4;
+}
+@media screen and (min-width: 768px) {
+    .box-testimonial {
+        height: 280px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .box-testimonial {
+        
+    }
+}
+/* Container Testimonial*/
 
 /* MAIN */
 
